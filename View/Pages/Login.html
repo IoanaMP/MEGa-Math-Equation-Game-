@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>MEGa - Math Equation Game</title>
-<link rel="stylesheet" href="../Css/Homepage.css">
+<link rel="stylesheet" href="../Css/Login.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -16,15 +16,41 @@
     <a class="admin" href="Admin-page.html">Admin page</a>
     <ul class="register-login">
       <li><a class="login" href="Login.html">Login</a></li>
-      <li><a class="register" href="Register.html">Register</a></li>s
+      <li><a class="register" href="Register.html">Register</a></li>
     </ul>
   </div>
 </nav>
 </header>
-<p>Form-ul pentru login</p>
+
+<h1 id="login-page">Login</h1>
+
+<!-- Form actionul duce datele catre fisierul javascript -->
+<form action="/Controllers/login.js" method="get" class="login">
+  <div class="login-page">
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" class="login-form-field" required>
+  </div>
+
+  <div class="login-page">
+    <label for="passwd">Password: </label>
+    <input type="password" name="passwd" class="login-form-field" id="passwd" required>
+  </div>
+
+  <div class="login-page">
+    <input type="submit" value="Login">
+  </div>
+</form>
+
+<div class="login-page" >
+  <p>Nu aveți cont?</p>
+  <a href="Register.html" id = "register-button"> Înregistrați-vă </a>
+</div>
+
+<img src="Images/pi.jpg" id ="login-joke" alt="joke">
+
 <footer>
 <div class="footer">
-    <p>Proiect realizat de Tomescu Tudor Gabriel , Cazacu Razvan-Nicusor si Pinzariu Malina Ioana</p>
+    <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
   </div>
 </footer>
 
