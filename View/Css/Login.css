@@ -1,16 +1,3 @@
-.login-page {
-    display: grid;
-    justify-items: center;
-    padding-bottom: 1mm;
-    border: 1px solid #fbb49a;
-    background-color: #fbb49a;
-    color: white;
-    margin: auto;
-    width: 30%;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-family: 'Dancing Script', cursive;
-}
-
 #register-button{
   background-color: lightgrey;
   width: 115px;
@@ -18,36 +5,29 @@
   color: rgb(0, 0, 0);
   
 }
-/*
 .auth-box{
+    display: grid;
+    justify-items: center;
+    background-color: #fbb49a;
+    color: white;
     margin: auto;
-    width: 800px;
-    border: 5px solid rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    padding: 20px;
 }
-*/
-/* break */
-#login-joke::before{
-    content: "\A";
-    white-space: pre;
+#login-title{
+    color:#000000
 }
-
 #login-joke{
     display: grid;
     justify-items: center;
     margin: auto;
     width: 30.1%;
 }
-
-h1{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-}
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fbb49a;
   }
-  
   .topnav {
     overflow: hidden;
     background-color: #333;
@@ -66,53 +46,6 @@ body {
   .topnav .active{
     display: flex;
     justify-content: flex-start;
-  }
-  .logo{
-    height: 40px;
-    width: 40px;
-  }
-  section h2{
-    text-align: center;
-  }
-  section picture .logo{
-    margin-left: 15px;
-  }
-  section article p{
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  section header{
-      font-size:50px;
-      width:100%;
-      margin: 0 auto;
-      display:block;
-      background: #333;
-      opacity: 0.9;
-      color: rgb(255, 255, 255);
-      text-align:center;
-  }
-  h2.logo-title{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-image: url("../Pages/Images/background-image.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    height:200px;
-    width: 100%;
-  }
-  p.detalii-titlu{
-    margin-top: 0%;
-    width: 100%;
-    height: 100%;
-  }
-  section article{
-    width:100%;
-    color:#000000;
-    font-size: 15px;
-    display:block;
-  }
-  h2 img{
-    margin-right: 15px;
   }
   .topnav a {
     float: left;
