@@ -22,31 +22,37 @@
 </nav>
 </header>
 
-<h1 id="login-page">Login</h1>
+<div class = "auth-box">
+  <h1 id="login-page">Login</h1>
 
-<!-- Form actionul duce datele catre fisierul javascript -->
-<form action="/Controllers/login.js" method="get" class="login">
-  <div class="login-page">
-    <label for="email">Email: </label>
-    <input type="email" name="email" id="email" class="login-form-field" required>
+  <!-- Form actionul duce datele catre fisierul javascript -->
+  <form action="/Controllers/login.js" method="get" class="login">
+    <div class="login-page">
+      <label for="email">Email: </label>
+      <input type="email" name="email" placeholder="email@example.com" id="email" class="login-form-field" required>
+    </div>
+
+    <div class="login-page">
+      <label for="passwd">Password: </label>
+      <input type="password" name="passwd" placeholder="**********" class="login-form-field" id="passwd" required>
+    </div>
+
+    <div class="login-page">
+      <input type="submit" value="Login">
+    </div>
+  </form>
+
+  <div class="login-page" >
+    <p>Nu aveți cont?</p>
+    <a href="Register.html" id = "register-button"> Înregistrați-vă </a>
   </div>
 
-  <div class="login-page">
-    <label for="passwd">Password: </label>
-    <input type="password" name="passwd" class="login-form-field" id="passwd" required>
+  <!-- break -->
+  </br>
+  <!-- break -->
   </div>
+  <img src="Images/pi.jpg" id ="login-joke" alt="joke">
 
-  <div class="login-page">
-    <input type="submit" value="Login">
-  </div>
-</form>
-
-<div class="login-page" >
-  <p>Nu aveți cont?</p>
-  <a href="Register.html" id = "register-button"> Înregistrați-vă </a>
-</div>
-
-<img src="Images/pi.jpg" id ="login-joke" alt="joke">
 
 <footer>
 <div class="footer">
