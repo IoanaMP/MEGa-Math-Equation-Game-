@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    height: auto;
+}
+
+.container {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.page-content {
+    margin: 20px;
+    padding: 10px;
+    height: auto;
+    background-color: #f1f1f1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 17%;
+    max-height: 300px;
+    margin: 5px 20px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: 70%;
+}
+
+
+.content-right {
+    margin-left: 200px;
+    padding: 1px 16px;
+    width: 80%;
+}
+
+.sidebar {
+    background-color: #FDF0F0;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+}
+
+.sidebar a {
+    color: black;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a:active {
+    background-color: #FEBBBB;
+    color: black;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #FEBBBB;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    div.content-right {
+        margin: 0;
+        padding: 1px 16px;
+        height: auto;
+    }
+    .content-right {
+        background-color: white;
+        height: auto;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
