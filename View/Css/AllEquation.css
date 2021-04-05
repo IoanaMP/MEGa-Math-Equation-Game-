@@ -1,18 +1,70 @@
 body {
     margin: 0;
     height: auto;
+    background-color: #f1f1f1;
+}
+
+.container-motto {
+    background-color: aquamarine;
+    display: block;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 9.30rem;
+    width: 90%;
+}
+
+.container-motto-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+
+.categories {
+    border-bottom: 1px solid #0074B7;
+    border-top: 1px solid #0074B7;
+    width: 100%;
+}
+
+.categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.categories li {
+    display: inline-block;
+}
+
+.categories a {
+    color: black;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.categories a:hover {
+    background-color: #0074B7;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .container {
     margin: 30px auto;
-    width: 90%;
+    width: 100%;
 }
 
 .page-content {
-    margin: 20px;
+    /* margin: 20px; */
     padding: 10px;
     height: auto;
-    background-color: #f1f1f1;
+    background-color: #fff;
 }
 
 .row {
@@ -47,7 +99,7 @@ body {
 }
 
 .sidebar {
-    background-color: #FDF0F0;
+    background-color: #BFD7ED;
     height: auto;
     margin: 0;
     overflow: auto;
@@ -64,13 +116,33 @@ body {
 }
 
 .sidebar a:active {
-    background-color: #FEBBBB;
+    background-color: #0074B7;
     color: black;
 }
 
 .sidebar a:hover:not(.active) {
-    background-color: #FEBBBB;
+    background-color: #0074B7;
     color: black;
+}
+
+.buttonside {
+    display: flex;
+    flex-direction: column;
+    background-color: #BFD7ED;
+    width: 100%;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.buttonside:hover {
+    background-color: #0074B7;
+    width: 100%;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -85,9 +157,6 @@ body {
     div.content {
         margin-left: 0;
     }
-}
-
-@media screen and (max-width: 699px) {
     div.content-right {
         margin: 0;
         padding: 1px 16px;
@@ -99,6 +168,7 @@ body {
         width: fit-content;
     }
 }
+
 
 @media screen and (max-width: 400px) {
     .sidebar a {
