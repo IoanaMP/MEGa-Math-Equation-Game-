@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>MEGa - Math Equation Game</title>
-<link rel="stylesheet" href="../Css/Login.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>MEGa - Math Equation Game</title>
+  <link rel="stylesheet" href="../Css/Login.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<header>
-  <nav>
-    <div class="topnav">
-      <a class="active" href="Homepage.html">Home</a>
-      <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
-      <a class="admin" href="Admin-page.html">Admin page</a>
-      <ul class="register-login">
-        <li><a class="login" href="Login.html">Login</a></li>
-        <li><a class="register" href="Register.html">Register</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
+  <header>
+    <nav>
+      <div class="topnav">
+        <a class="active" href="Homepage.html">Home</a>
+        <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
+        <a class="admin" href="Admin-page.html">Admin page</a>
+        <ul class="register-login">
+          <li><a class="login" href="Login.html">Login</a></li>
+          <li><a class="register" href="Register.html">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ 
 
-<div class = "auth-box">
-  <h1 id="login-title">Login</h1>
-  <!-- Form actionul duce datele catre fisierul javascript -->
-  <form action="/Controllers/login.js" method="get" class="auth-box">
-      <!--  <i class="material-icons">person</span>  -->
-      <label for="email">Email: </label>
-      <input type="email" name="email" placeholder="email@example.com" id="email" class="login-form-field" required>
-  
-     <!--  <i class="material-icons">lock</span>-->
-      <label for="passwd">Password:</label> 
-      <input type="password" name="passwd" placeholder="**********" class="login-form-field" id="passwd" required>
-      
-      <input type="submit" value="Login">
+  <h1 class = "auth-box" id="login-title">Login</h1>
+  <form action="/Controllers/login.js" method="get">
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input class="input-field" type="email" name="email" placeholder="email@example.com" id="email" required>
+      </div>
+
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <input class="input-field" type="password" name="passwd" placeholder="**********" id="passwd" required>
+      </div>
+
+      <div class="input-container">
+        <button type="submit" class="btn"><h2>Loghează-te</h2></button>
+      </div>
   </form>
 
-    <p>Nu aveți cont?</p>
-    <a href="Register.html" id = "register-button">Înregistrați-vă</a>   
-</div>
+  <form action="/View/Pages/Register.html">
+      <div class="input-container">
+        <button type="submit" class="btn">Nu aveți cont?</br><h2>Înregistrați-vă</h2></button>
+      </div>
+  </form>
+ 
+  <img src="Images/pi.jpg" id ="login-joke" alt="Pi-joke">
 
-<img src="Images/pi.jpg" id ="login-joke" alt="Pi-joke">
-
-<footer>
-<div class="footer">
-    <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
-  </div>
-</footer>
+  <footer>
+  <div class="footer">
+      <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
+    </div>
+  </footer>
 
 </body>
 </html>
