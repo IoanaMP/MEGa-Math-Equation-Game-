@@ -5,38 +5,45 @@
 <title>MEGa - Math Equation Game</title>
 <link rel="stylesheet" href="../Css/Login.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 <header>
-<nav>
-  <div class="topnav">
-    <a class="active" href="Homepage.html">Home</a>
-    <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
-    <a class="admin" href="Admin-page.html">Admin page</a>
-    <ul class="register-login">
-      <li><a class="login" href="Login.html">Login</a></li>
-      <li><a class="register" href="Register.html">Register</a></li>
-    </ul>
-  </div>
-</nav>
+  <nav>
+    <div class="topnav">
+      <a class="active" href="Homepage.html">Home</a>
+      <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
+      <a class="admin" href="Admin-page.html">Admin page</a>
+      <ul class="register-login">
+        <li><a class="login" href="Login.html">Login</a></li>
+        <li><a class="register" href="Register.html">Register</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <div class = "auth-box">
   <h1 id="login-title">Login</h1>
   <!-- Form actionul duce datele catre fisierul javascript -->
   <form action="/Controllers/login.js" method="get" class="auth-box">
+      <!--  <i class="material-icons">person</span>  -->
       <label for="email">Email: </label>
       <input type="email" name="email" placeholder="email@example.com" id="email" class="login-form-field" required>
-      <label for="passwd">Password:</label>
+  
+     <!--  <i class="material-icons">lock</span>-->
+      <label for="passwd">Password:</label> 
       <input type="password" name="passwd" placeholder="**********" class="login-form-field" id="passwd" required>
+      
       <input type="submit" value="Login">
   </form>
+
     <p>Nu aveți cont?</p>
-    <a href="Register.html" id = "register-button">Înregistrați-vă</a>
-    <img src="Images/pi.jpg" id ="login-joke" alt="Pi-joke">
+    <a href="Register.html" id = "register-button">Înregistrați-vă</a>   
 </div>
- 
+
+<img src="Images/pi.jpg" id ="login-joke" alt="Pi-joke">
+
 <footer>
 <div class="footer">
     <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
