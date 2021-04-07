@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>MEGa - Math Equation Game</title>
+  <link rel="stylesheet" href="../Css/AdaugaEcuatii.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="topnav">
+        <a class="homepage" href="Homepage.html">Home</a>
+        <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
+        <a class="admin" href="Admin-page.html">Admin page</a>
+        <a class="active" href="AdaugaEcuatii.html"> Adaugă o ecuație</a>
+        <ul class="register-login">
+          <li><a class="login" href="Login.html">Login</a></li>
+          <li><a class="register" href="Register.html">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+ 
+  <h1 class = "auth-box" id="login-title">Adaugă o ecuație</h1>
+  <form action="/Controllers/upload_Eq.js" method="get">
+      <div class="input-container">
+        <input class="input-field" type="text" name="equation" placeholder="y^(2) + x*y - x^(2) * y' = 0" id="email" required>
+        <button type="submit" class="btn"><i class="fa fa-upload icon"></i></button>
+      </div>
+
+      <div class="input-container">
+        
+      </div>
+  </form>
+
+  <img src="Images/solvingEquation.jpg" id ="solvingEquation" alt="Pi-joke" >
+
+  <footer>
+  <div class="footer">
+      <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
+    </div>
+  </footer>
+
+</body>
+</html>
