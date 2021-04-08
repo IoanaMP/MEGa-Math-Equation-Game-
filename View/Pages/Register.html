@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
-  <meta charset="UTF-8">
-<title>MEGa - Math Equation Game</title>
-<link rel="stylesheet" href="../Css/Homepage.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <link rel="stylesheet" href="../Css/Register.css">
+    <link rel="stylesheet" href="../Css/Homepage.css">
 </head>
 
 <body>
-<header>
-<nav>
-  <div class="topnav">
-    <a class="active" href="Homepage.html">Home</a>
-    <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
-    <a class="admin" href="Admin-page.html">Admin page</a>
-    <ul class="register-login">
-      <li><a class="login" href="Login.html">Login</a></li>
-      <li><a class="register" href="Register.html">Register</a></li>s
-    </ul>
-  </div>
-</nav>
-</header>
-<p>Form-ul pentru register</p>
+
+<div class="body-backgr">
+    <header>
+        <nav>
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+        </nav>
+        </header>
+    <section>
+        <div class="section">
+            <form class="forms">
+                <div class ="form-style">
+                    <h4>Creare cont</h4>
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Email" name="email" id="email" required>
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Nume de utilizator" name="username" id="username" required>
+                    <label for="password">Parola</label>
+                    <input type="password" placeholder="Alege o parola" name="password" id="password" required>
+                    <label for="repeatpass">Verificare parola</label>
+                    <input type="password" placeholder="Confirmare parola" name="repeatpass" id="repeatpass" required>
+                    <button class="submit-button" type="submit">Sign up</button>
+                    <div class="already-sign">
+                        <p>Ai deja cont? <a href="Login.html">Sign in</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
 <footer>
-<div class="footer">
-    <p>Proiect realizat de Tomescu Tudor Gabriel , Cazacu Razvan-Nicusor si Pinzariu Malina Ioana</p>
-  </div>
+    <div class="footer">
+        <p>Footer</p>
+      </div>
 </footer>
 
 </body>
