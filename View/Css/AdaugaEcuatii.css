@@ -3,28 +3,23 @@
   width: 115px;
   border: 2px solid rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  
 }
 
-.auth-box{
-    display: grid;
-    justify-items: center;
-    color: white;
-    margin: auto;
-    padding: 20px;
-}
-
-.auth-box::before{
+#uploadEq-title::before{
   content: "\a\a";
   white-space: pre;
 }
 
-#login-title{
+#uploadEq-title{
+    display: grid;
+    justify-items: center;
     color:#000000;
     font-family: 'Dancing Script', cursive;
+    margin: auto;
+    padding: 20px;
 }
 
-#login-joke{
+#solvingEquation{
     display: grid;
     justify-items: center;
     margin: auto;
@@ -36,7 +31,6 @@ body {
     background-image: url('../Pages/Images/loginBackground.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     /*background-size:100% 100%;*/
     background-color: #FFB495;
   }
@@ -108,34 +102,18 @@ body {
   outline: none;
 }
 
-.icon {
+.btn {
+  float: left;
+  width: 20%;
   padding: 10px;
   background: rgb(0, 0, 0);
   color: white;
-  min-width: 30px;
-  text-align: center;
-}
-
-.btn {
-  background-color: rgb(153, 0, 51);
-  color: white;
-  padding: 15px 20px;
-  border: none;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
   cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
 }
 
 .btn:hover {
   opacity: 1;
-}
-
-button span {
-display: block;
-font-size: 1.5em;
-margin-top: 0.83em;
-margin-bottom: 0.83em;
-margin-left: 0;
-margin-right: 0;
-font-weight: bold;
 }
