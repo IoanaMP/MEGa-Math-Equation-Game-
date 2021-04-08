@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ro">
 <head>
   <meta charset="UTF-8">
   <title>MEGa - Math Equation Game</title>
   <link rel="stylesheet" href="../Css/Login.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- login controller in progress-->
+  <script src="../../Controllers/login.js"></script>
 </head>
 
 <body>
@@ -26,7 +28,8 @@
  
 
   <h1 class = "auth-box" id="login-title">Login</h1>
-  <form action="/Controllers/login.js" method="get">
+
+  <form id="auth-form">
       <div class="input-container">
         <i class="fa fa-user icon"></i>
         <input class="input-field" type="email" name="email" placeholder="email@example.com" id="email" required>
@@ -34,17 +37,17 @@
 
       <div class="input-container">
         <i class="fa fa-envelope icon"></i>
-        <input class="input-field" type="password" name="passwd" placeholder="**********" id="passwd" required>
+        <input class="input-field" type="password" name="password" placeholder="**********" id="passwd" required>
       </div>
 
       <div class="input-container">
-        <button type="submit" class="btn"><h2>Loghează-te</h2></button>
+        <button type="submit" class="btn" onclick="validateLogin()"><span>Loghează-te</span></button>
       </div>
   </form>
 
   <form action="/View/Pages/Register.html">
       <div class="input-container">
-        <button type="submit" class="btn">Nu aveți cont?</br><h2>Înregistrați-vă</h2></button>
+        <button type="submit" class="btn">Nu aveți cont? <br/> <span>Înregistrați-vă</span></button>
       </div>
   </form>
  

@@ -5,12 +5,12 @@
   color: rgb(0, 0, 0);
 }
 
-#login-title::before{
+#uploadEq-title::before{
   content: "\a\a";
   white-space: pre;
 }
 
-#login-title{
+#uploadEq-title{
     display: grid;
     justify-items: center;
     color:#000000;
