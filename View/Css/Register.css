@@ -5,7 +5,7 @@ html, body{
 }
 .body-backgr{
     /* background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url('../../assets/pexels-skitterphoto-1019470.jpg'); */
-    background-image: url('../../assets/pexels-skitterphoto-1019470.jpg');
+    background-image: url('../../assets/ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,28 +14,9 @@ html, body{
     margin: 0;
     height: 100%;
 }
-.top-nav{
-    background-color: rgba(255,255,255,0);
-    color: #000;
-}
-.top-nav a {
-    float: left;
-    color: #000;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .top-nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
 
 .section{
     display: flex;
-    /* justify-content: center;*/
     margin: auto;
     position: fixed;
     top: 10%;
@@ -46,7 +27,7 @@ html, body{
 .forms{
     display: block;
     width: 100%;
-    padding: auto 20px;
+    padding: 0 20px;
 }
 
 input {
@@ -62,7 +43,7 @@ label {
 }
 
 .form-style{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(1, 1, 1, 0.5);
     border-radius: 3px;
     display: flex;
@@ -70,7 +51,7 @@ label {
     flex-wrap: wrap;
     padding: 5px 20px 15px 20px;
     width: 100%;
-    color: #000;
+    color: #fff;
     
 }
 
@@ -82,8 +63,9 @@ label {
     color: white;
     justify-content: center;
     text-align: center;
-    padding: 30;
-    width: 20%;
+    font-size: 16px;
+    padding: 15px;
+    width: 40%;
 }
 
 .submit-button:hover{
@@ -97,5 +79,65 @@ label {
 .already-sign a{
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    
+.section{
+    top: 10%;
+    left: 20%;
+    width: 60%;
+}
+    .submit-button{
+        font-size: 14px;
+        padding: 10px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    
+    .section{
+        top: 10%;
+        left: 20%;
+        width: 60%;
+    }
+        .submit-button{
+            font-size: 12px;
+            padding: 10px;
+            width: 30%;
+        }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .section{
+        top: 10%;
+        left: 17%;
+        width: 60%;
+    }
+    .submit-button{
+            font-size: 12px;
+            padding: 6px;
+            width: 40%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    
+    .form-style{
+        font-size: 14px;
+        
+    }
+    .section{
+        top: 10%;
+        left: 12%;
+        width: 65%;
+    }
+    .submit-button{
+            font-size: 12px;
+            padding: 6px;
+            width: 40%;
+    }
 }
