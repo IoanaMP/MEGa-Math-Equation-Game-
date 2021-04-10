@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>MEGa - Math Equation Game</title>
+<link rel="stylesheet" href="../Css/Homepage.css">
+<link rel="stylesheet" href="../Css/Documentatie.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<header>
+<nav>
+  <div class="topnav">
+    <a class="homepage" href="Homepage.html">Home</a>
+    <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
+    <a class="admin" href="Admin-page.html">Admin page</a>
+    <a href="AdaugaEcuatii.html"> Adaugă o ecuație</a>
+    <a class="active" href="Documentatie.html">Documentatie</a>
+    <ul class="register-login">
+      <li><a class="login" href="Login.html">Login</a></li>
+      <li><a class="register" href="Register.html">Register</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<section>
+  <header>
+    <p class="detalii-titlu">Enuntul problemei (MEGa)</p>
+  </header>
+    <p>
+        Să se conceapă un joc Web cu caracter educațional capabil să furnizeze utilizatorilor (autentificați sau nu) o modalitate facilă de a învăța și utiliza ecuații matematice specifice – de dorit, notorii – din diverse arii: algebră, analiză, geometrie, trigonometrie. Sursa ecuațiilor (“artefactele” jocului) poate fi un tratat, un sit Web ori eventual poate proveni de pe calculatorul client (prin operația de upload). Sistemul va oferi suport pentru includerea de exerciții/probleme cu caracter ludic referitoare la fiecare ecuație disponibilă. Bonus: recurgerea la formatele MathML și/sau SVG.    </p>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Despre aplicatie</p>
+    </header>
+  <p>
+      Aplicatia dezvoltata reprezinta un site capabil sa furnizeze o modalitate facila de a invata si a utiliza ecuatii matematice specifice.Aplicatia ofera posibilitatea utilizatorilor 
+      sa faca upload la ecuatii folosind un fisier txt si sa vizualizeze ecuatiile existente pe site.
+  </p>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Tehnologii folosite</p>
+    </header>
+      <p id="tech">
+          Tehnologiile folosite pentru dezvoltarea acestei aplicatii sunt : 
+      </p>
+      <ol id="techlist">
+      <li>
+          Html si css sunt folosite pentru implementarea front-end-ului.
+      </li>
+      <li>
+        Javascript (in lucru..)
+      </li>
+      </ol>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Arhitectura proiectului</p>
+    </header>
+    <p id="text"><b>Utilizare</b></p>
+    <p id="textp1">Accesarea site-ului MEGa va directiona utilizatorul catre homepage unde va putea citi descrierea proiectului si ariile ecuatiilor.Utilizatorul are urmatoarele posibilitati : </p>
+    <ol>
+      <li>Sa se inregistreze</li>
+      <li>Sa dea login dupa ce si-a creat un cont</li>
+      <li>Sa vizualizeze toate ecuatiile existente deja pe site (introduse de alti utilizatori)</li>
+      <li>Sa incarce pe site propriile ecuatii (upload)</li>
+    </ol>
+    <p id="textp3">De pe contul unui admin se va putea accesa pagina - Admin page - de unde adminul poate sterge din baza de date conturile dorite.</p>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Functionalitatile aplicatiei</p>
+    </header>
+    <p>
+      Dupa inregistrarea unui cont pe site , utilizatorul se va putea loga pe acel cont. Dupa logare , utilizatorul va putea sa incarce diferite ecuatii specifice ariilor existente pe site (informatii, rezolvari, hint-uri pentru rezolvare).
+      Va putea vizualiza ecuatiile urcate de acesta. De pe un cont de admin se va putea vizualiza toate conturile inregistrate pe site si se va putea sterge din baza de date conturile utilizatorilor.
+    </p>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Model View Controller</p>
+    </header>
+    <ul class="mvc">
+      <li>
+        Public - contine toate paginile html, css si fisierele js folosite in aplicatie.
+      </li>
+    </ul>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Impartire Task-uri</p>
+    </header>
+    <ul>
+      <li>
+        Cazacu Razvan-Nicusor
+      <ol>
+        <li>
+          Homepage
+        </li>
+        <li>
+          Admin page
+        </li>
+        <li>
+          Documentatie
+        </li>
+      </ol>
+      </li>
+      <li>
+        Tomescu Tudor Gabriel
+      <ol>
+        <li>
+          Login
+        </li>
+        <li>
+          Adaugare ecuatie
+        </li>
+      </ol>
+      </li>
+      <li>
+        Pinzariu Ioana Malina
+      <ol>
+        <li>
+          Register
+        </li>
+        <li>
+          Vizualizare lista ecuatii existente
+        </li>
+      </ol>
+    </li>
+    </ul>
+  </section>
+  <section>
+    <header>
+      <p class="detalii-titlu">Resurse</p>
+    </header>
+    <ul id="resurse">
+    <li>
+      <a href="https://www.w3schools.com/">W3Schools</a>
+    </li>
+    <li>
+        <a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network (MDN Web Docs)</a>
+    </li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="footer">
+        <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
+      </div>
+    </footer>
+
+</body>
+</html>
