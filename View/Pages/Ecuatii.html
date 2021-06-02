@@ -26,18 +26,6 @@
           </div>
       </nav>
     </header>
-    <section>
-        <div class="container-search">
-            <div class="container-elements">
-              <h1>Math Equation Game</h1>
-            </div>
-              <div class="container-search-content">
-                  <input class="search-bar" type="search" placeholder="Search.." name="search">
-                  <!-- <button class="search-button" type="submit"><img src="../../assets/search_black_24dp.svg" alt="search icon"></button> -->
-              </div> 
-            
-        </div>
-    </section>
 
         <div class="categories">
             <ul>
@@ -50,70 +38,40 @@
 
     <section>
         <div class="page-content">
-            <div class="content-right">
-                <div class="row">
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problema</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
+                <form class="game">
+                    <label for="fquestion"><h3>Calculati ecuatia de pai jos</h3></label>
+                    <mrow>
+                        <mrow>
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                          <mo>+</mo>
+                          <mrow>
+                            <mn>4</mn>
+                            <mo>&times;</mo>
+                            <mi>x</mi>
+                          </mrow>
+                          <mo>+</mo>
+                          <mn>4</mn>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                      </mrow>
+                    <input type="text" id="fquestion" name="fquestion">
+                    <div class="help">
+                        <h5>Ai nevoie de ajutor? <button class="hint">Hint</button></h5>
+                        <p class="dropdown-content">Ecuatie de gradul 2, calculeaza delta blah</p>
                     </div>
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problema</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problemă</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problemă</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problemă</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src='../../assets/pexels-skitterphoto-1019470.jpg' alt='Problema'>
-                        <div class="card-detalies">
-                            <h4>Problemă</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                                when an unknown printer took a galley of type.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <input type="submit" value="Submit">
+                </form>
         </div>
     </section>
     <footer>
       <div class="footer">
-          <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Mălina-Ioana</p>
+          <p>Proiect realizat de Tomescu Tudor-Gabriel, Cazacu Răzvan-Nicușor și Pînzariu Ioana-Mălina</p>
         </div>
       </footer>
+      <script src="../scripts/dropdown.js"></script>
 </body>
 </html>
