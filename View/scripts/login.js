@@ -10,6 +10,8 @@
   button.addEventListener('click', login);
   form.addEventListener('submit', login);
   
+  window.alert("Alerta!!");
+
   async function login(event) {
     event.preventDefault();
     // request post trimite email si parola si verifica daca succes
