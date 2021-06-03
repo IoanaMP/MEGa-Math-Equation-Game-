@@ -13,41 +13,40 @@
 <body>
   <header>
     <nav>
-      <div class="topnav">
-        <a class="homepage" href="Homepage.html">Home</a>
-        <a class="ecuatii" href="Ecuatii.html">Ecuatii</a>
-        <a class="admin" href="Admin-page.html">Admin page</a>
-        <a href="AdaugaEcuatii.html"> Adaugă o ecuație</a>
-        <a class="documentatie" href="Documentatie.html">Documentatie</a>
+    <div class="topnav">
+        <a class="homepage" href="homepage">Home</a>
+        <a class="ecuatii" href="ecuatii">Ecuatii</a>
+        <a class="admin" href="adminpage">Admin page</a>
+        <a href="adaugaecuatii"> Adaugă o ecuație</a>
+        <a class="documentatie" href="documentatie">Documentatie</a>
         <ul class="register-login">
-          <li><a class="active" href="Login.html">Login</a></li>
-          <li><a class="register" href="Register.html">Register</a></li>
+          <li><a class="active" href="login">Login</a></li>
+          <li><a class="register" href="register">Register</a></li>
         </ul>
       </div>
-    </nav>
+</nav>
   </header>
  
 
   <h1 class = "auth-box" id="login-title">Login</h1>
 
   
-  <div id="auth-form">
-    <form >
-        <div class="input-container">
-          <i class="fa fa-user icon"></i>
-          <input class="input-field" type="email" name="email" placeholder="email@example.com" id="email" required>
-        </div>
 
-        <div class="input-container">
-          <i class="fa fa-envelope icon"></i>
-          <input class="input-field" type="password" name="password" placeholder="**********" id="passwd" required>
-        </div>
+  <form id="auth-form">
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input class="input-field" type="email" name="email" placeholder="email@example.com" id="email" required>
+      </div>
 
-        <div class="input-container">
-          <button type="submit" class="btn"><span>Loghează-te</span></button>
-        </div>
-    </form>
-  </div>
+      <div class="input-container">
+        <i class="fa fa-envelope icon"></i>
+        <input class="input-field" type="password" name="password" placeholder="**********" id="passwd" required>
+      </div>
+
+      <div class="input-container">
+        <button type="submit" class="btn"><span>Loghează-te</span></button>
+      </div>
+  </form>
 
   <form action="/View/Pages/Register.html">
       <div class="input-container">
@@ -55,7 +54,7 @@
       </div>
   </form>
  
-  <img src="Images/pi.jpg" id ="login-joke" alt="Pi-joke">
+  <img src="/Pages/Images/pi.jpg" id ="login-joke" alt="Pi-joke">
 
   <footer>
   <div class="footer">

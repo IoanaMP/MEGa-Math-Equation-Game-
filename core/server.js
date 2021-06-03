@@ -1,5 +1,5 @@
 var http = require('http');
 var app = require('./router');
 
-http.createServer(app.handleRequest).listen(8000);
-console.log("Listening on port 8000...");
+http.createServer(app.handleRequest).listen(3000);
+console.log("Listening");

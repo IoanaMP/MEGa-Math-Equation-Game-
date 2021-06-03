@@ -5,7 +5,7 @@ html, body{
 }
 .body-backgr{
     /* background:linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%), url('../../assets/pexels-skitterphoto-1019470.jpg'); */
-    background-image: url('../../assets/DONE_ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg');
+    background-image: url('../Pages/Images/DONE_ekaterina-novitskaya-gLroHoWh_as-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
