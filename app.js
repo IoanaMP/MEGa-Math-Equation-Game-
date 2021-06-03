@@ -9,11 +9,11 @@ const { createServer, Router } = require('./core');
 // modifyPrimitives();
 global.dir = __dirname;
 //routing
-const routes = [
-  require('./controllers/routing'),
-  require('./controllers/auth'),
-  require('./controllers/users'),
-];
+// const routes = [
+//   //require('./controllers/routing'),
+//   require('./controllers/auth'),
+//   require('./controllers/users'),
+// ];
 //apelez controllere pentru a le adauga in memorie
 // const router = new Router();
 // for (const route of routes) {
@@ -27,4 +27,4 @@ mongoose.connect(config.db, {
   useUnifiedTopology: true,
 }).finally(() => console.log('Connected to database'));
 //creare server
-createServer(router, db);
+createServer;

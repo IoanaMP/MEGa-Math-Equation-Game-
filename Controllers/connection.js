@@ -1,7 +1,7 @@
 const {MongoClient} = require('mongodb');
 async function main() {
     const MongoClient = require('mongodb').MongoClient;
-      const client = await MongoClient.connect('mongodb+srv://Razvan:123321@mega.wvfe4.mongodb.net/test?retryWrites=true&w=majority', { 
+      const client = await MongoClient.connect('mongodb+srv://Tudor:parola@mega.wvfe4.mongodb.net/test?retryWrites=true&w=majority', { 
         useNewUrlParser: true, 
         useUnifiedTopology: true,
     });
