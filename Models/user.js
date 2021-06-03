@@ -1,4 +1,7 @@
-const {Schema, model} = require('mongoose')
+
+const { Schema, model } = require('mongoose')
+//un user va avea : email, parola , nume , prenume si rol
+
 
 const userSchema = new Schema(
     {
@@ -22,6 +25,7 @@ const userSchema = new Schema(
     {
         timestamps: true
     }
+
 )
 
 module.exports = model('users', userSchema)
